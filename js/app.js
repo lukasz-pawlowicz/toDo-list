@@ -1,6 +1,3 @@
-/**
- * Created by Jacek on 2015-12-16.
- */
 document.addEventListener("DOMContentLoaded", function() {
 
 	var taskInput = document.querySelector("#taskInput");
@@ -10,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	var removeFinishedTasksButton = document.querySelector("#removeFinishedTasksButton");
 	var counter = document.querySelector("#counter");
 	var counterEl = 0;
-
 
 	addTaskButton.addEventListener("click", function(event) {
 		if (taskInput.value.length > 5 && taskInput.value.length < 100) {
@@ -54,14 +50,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 });
 
-
-
-// var newButton = document.createElement("button");
-//       newButton.classList.add("close");
-//       newButton.innerText = "Close";
-//       newDiv.appendChild(newImg);
-//       newDiv.appendChild(newButton);
-//       body.appendChild(newDiv);
 
 
 
